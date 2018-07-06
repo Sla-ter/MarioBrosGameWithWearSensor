@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Mario Remote</string>
+    <string name="start">Start</string>
+    <string name="mario_remote">PLAY MARIO BROS.</string>
+</resources>

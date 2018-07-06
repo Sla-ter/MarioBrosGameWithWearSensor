@@ -1,0 +1,2 @@
+include ':wear', ':wearemote'
+include 'android', 'core'
