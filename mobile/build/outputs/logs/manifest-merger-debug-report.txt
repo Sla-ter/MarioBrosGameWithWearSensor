@@ -1,0 +1,376 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Mario\Desktop\VideoGame\AndroidStudio\MarioBrosLibGDX\Game\mobile\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\Mario\Desktop\VideoGame\AndroidStudio\MarioBrosLibGDX\Game\mobile\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\Mario\Desktop\VideoGame\AndroidStudio\MarioBrosLibGDX\Game\mobile\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\Mario\Desktop\VideoGame\AndroidStudio\MarioBrosLibGDX\Game\mobile\AndroidManifest.xml:2:1-41:12
+MERGED from [:wearemote] C:\Users\Mario\Desktop\VideoGame\AndroidStudio\MarioBrosLibGDX\Game\wearemote\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-22:12
+MERGED from [com.google.android.gms:play-services:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-8.4.0.aar\2ac1b1b36845844286b10572a6a51f4f\AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-cast:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-cast-8.4.0.aar\918cd635e5ad6face13c9826a6f78190\AndroidManifest.xml:16:1-20:12
+MERGED from [com.android.support:mediarouter-v7:23.0.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\mediarouter-v7-23.0.0.aar\d931cceda93fbc9b5d0423fe64f622af\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.1.1.aar\d035e3b52e02ec05f19ac9505bf552ff\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-ads-8.4.0.aar\379f7ef2d58282f2250bb4f6de10ba71\AndroidManifest.xml:16:1-33:12
+MERGED from [com.google.android.gms:play-services-auth:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-auth-8.4.0.aar\2454ab9d123b14140f9053cf811fc479\AndroidManifest.xml:16:1-33:12
+MERGED from [com.google.android.gms:play-services-gcm:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-gcm-8.4.0.aar\03c3864483542987c6c71868c48e6b72\AndroidManifest.xml:16:1-25:12
+MERGED from [com.google.android.gms:play-services-analytics:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-analytics-8.4.0.aar\46f941cbccf339226f8497c488e9427a\AndroidManifest.xml:16:1-25:12
+MERGED from [com.google.android.gms:play-services-wearable:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-wearable-8.4.0.aar\7bf2e1615d047399817423ef98be711a\AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-appindexing-8.4.0.aar\a72a41b4b8fa95bed6b4ccc2f69c7abb\AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-8.4.0.aar\6b0b76a99c669542ed5170a9a62af5f0\AndroidManifest.xml:16:1-31:12
+MERGED from [com.google.android.gms:play-services-appstate:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-appstate-8.4.0.aar\ae5e68d8f463856f801d9f45130bd21e\AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-games:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-games-8.4.0.aar\084518afa0a320a41534252c36e35626\AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-drive:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-drive-8.4.0.aar\f429810f9e8ce60099ef3dcc036bc484\AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-fitness:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-fitness-8.4.0.aar\3df1e0a3059dcb4ce94f7a392b3a8b49\AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-wallet:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-wallet-8.4.0.aar\bdb92e0f9fe4095331c7cb368e5c6b12\AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.android.gms:play-services-identity:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-identity-8.4.0.aar\d139779fbcd5d71c289f4399d5200c9a\AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-location:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-location-8.4.0.aar\304dcba6660ba33093f37b962f5d35e9\AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-maps-8.4.0.aar\e29ba2f1c66761c4216094e2b35d423b\AndroidManifest.xml:16:1-28:12
+MERGED from [com.google.android.gms:play-services-nearby:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-nearby-8.4.0.aar\d60f6b6c43f67ed83e080f345fe39c18\AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.android.gms:play-services-panorama:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-panorama-8.4.0.aar\cc4a50d0b5f98fe068e7d5e16da1dca7\AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-plus:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-plus-8.4.0.aar\fc2e8ffe05084e21f87f8c78c553839b\AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-safetynet:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-safetynet-8.4.0.aar\15edcc69d83867a0a6badde7f43b7562\AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-vision:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-vision-8.4.0.aar\964a37aca5d4c3831d7eec4f0db9fd3c\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-base:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-base-8.4.0.aar\f8972ad59469ed5967eb3f9751a4e52f\AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-measurement-8.4.0.aar\c71a704e2a8c53db2bf78ef5f6a14b30\AndroidManifest.xml:16:1-47:12
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-basement-8.4.0.aar\6e1dde1c3102ea69396eb23d3f0c0270\AndroidManifest.xml:16:1-26:12
+MERGED from [com.google.android.support:wearable:1.3.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\wearable-1.3.0.aar\8eb5fc29599680a6e3500a37f13bce08\AndroidManifest.xml:2:1-10:12
+MERGED from [com.android.support:recyclerview-v7:22.0.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-22.0.0.aar\d05e46f36e1146a94315e54685ed8583\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\support-v4-23.1.1.aar\792f5d2fbc75abfac85fd90ab004123c\AndroidManifest.xml:17:1-24:12
+INJECTED from C:\Users\Mario\Desktop\VideoGame\AndroidStudio\MarioBrosLibGDX\Game\mobile\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\Mario\Desktop\VideoGame\AndroidStudio\MarioBrosLibGDX\Game\mobile\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\Mario\Desktop\VideoGame\AndroidStudio\MarioBrosLibGDX\Game\mobile\AndroidManifest.xml:2:1-41:12
+	package
+		ADDED from C:\Users\Mario\Desktop\VideoGame\AndroidStudio\MarioBrosLibGDX\Game\mobile\AndroidManifest.xml:3:5-37
+		INJECTED from C:\Users\Mario\Desktop\VideoGame\AndroidStudio\MarioBrosLibGDX\Game\mobile\AndroidManifest.xml
+		INJECTED from C:\Users\Mario\Desktop\VideoGame\AndroidStudio\MarioBrosLibGDX\Game\mobile\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Mario\Desktop\VideoGame\AndroidStudio\MarioBrosLibGDX\Game\mobile\AndroidManifest.xml
+		ADDED from C:\Users\Mario\Desktop\VideoGame\AndroidStudio\MarioBrosLibGDX\Game\mobile\AndroidManifest.xml:2:1-41:12
+		INJECTED from C:\Users\Mario\Desktop\VideoGame\AndroidStudio\MarioBrosLibGDX\Game\mobile\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\Mario\Desktop\VideoGame\AndroidStudio\MarioBrosLibGDX\Game\mobile\AndroidManifest.xml
+		ADDED from C:\Users\Mario\Desktop\VideoGame\AndroidStudio\MarioBrosLibGDX\Game\mobile\AndroidManifest.xml:2:1-41:12
+		INJECTED from C:\Users\Mario\Desktop\VideoGame\AndroidStudio\MarioBrosLibGDX\Game\mobile\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Mario\Desktop\VideoGame\AndroidStudio\MarioBrosLibGDX\Game\mobile\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Users\Mario\Desktop\VideoGame\AndroidStudio\MarioBrosLibGDX\Game\mobile\AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-measurement-8.4.0.aar\c71a704e2a8c53db2bf78ef5f6a14b30\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-measurement-8.4.0.aar\c71a704e2a8c53db2bf78ef5f6a14b30\AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from C:\Users\Mario\Desktop\VideoGame\AndroidStudio\MarioBrosLibGDX\Game\mobile\AndroidManifest.xml:7:22-65
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Users\Mario\Desktop\VideoGame\AndroidStudio\MarioBrosLibGDX\Game\mobile\AndroidManifest.xml:8:5-65
+	android:name
+		ADDED from C:\Users\Mario\Desktop\VideoGame\AndroidStudio\MarioBrosLibGDX\Game\mobile\AndroidManifest.xml:8:22-63
+application
+ADDED from C:\Users\Mario\Desktop\VideoGame\AndroidStudio\MarioBrosLibGDX\Game\mobile\AndroidManifest.xml:10:5-38:19
+MERGED from [:wearemote] C:\Users\Mario\Desktop\VideoGame\AndroidStudio\MarioBrosLibGDX\Game\wearemote\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-20:19
+MERGED from [:wearemote] C:\Users\Mario\Desktop\VideoGame\AndroidStudio\MarioBrosLibGDX\Game\wearemote\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-20:19
+MERGED from [com.google.android.gms:play-services:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-8.4.0.aar\2ac1b1b36845844286b10572a6a51f4f\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-8.4.0.aar\2ac1b1b36845844286b10572a6a51f4f\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-cast:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-cast-8.4.0.aar\918cd635e5ad6face13c9826a6f78190\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-cast:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-cast-8.4.0.aar\918cd635e5ad6face13c9826a6f78190\AndroidManifest.xml:19:5-20
+MERGED from [com.android.support:mediarouter-v7:23.0.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\mediarouter-v7-23.0.0.aar\d931cceda93fbc9b5d0423fe64f622af\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:mediarouter-v7:23.0.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\mediarouter-v7-23.0.0.aar\d931cceda93fbc9b5d0423fe64f622af\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.1.1.aar\d035e3b52e02ec05f19ac9505bf552ff\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.1.1.aar\d035e3b52e02ec05f19ac9505bf552ff\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-ads-8.4.0.aar\379f7ef2d58282f2250bb4f6de10ba71\AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-ads-8.4.0.aar\379f7ef2d58282f2250bb4f6de10ba71\AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.android.gms:play-services-auth:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-auth-8.4.0.aar\2454ab9d123b14140f9053cf811fc479\AndroidManifest.xml:20:5-32:19
+MERGED from [com.google.android.gms:play-services-auth:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-auth-8.4.0.aar\2454ab9d123b14140f9053cf811fc479\AndroidManifest.xml:20:5-32:19
+MERGED from [com.google.android.gms:play-services-gcm:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-gcm-8.4.0.aar\03c3864483542987c6c71868c48e6b72\AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-gcm:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-gcm-8.4.0.aar\03c3864483542987c6c71868c48e6b72\AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-analytics:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-analytics-8.4.0.aar\46f941cbccf339226f8497c488e9427a\AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-analytics:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-analytics-8.4.0.aar\46f941cbccf339226f8497c488e9427a\AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-wearable:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-wearable-8.4.0.aar\7bf2e1615d047399817423ef98be711a\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-wearable:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-wearable-8.4.0.aar\7bf2e1615d047399817423ef98be711a\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-appindexing-8.4.0.aar\a72a41b4b8fa95bed6b4ccc2f69c7abb\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-appindexing-8.4.0.aar\a72a41b4b8fa95bed6b4ccc2f69c7abb\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-8.4.0.aar\6b0b76a99c669542ed5170a9a62af5f0\AndroidManifest.xml:20:5-30:19
+MERGED from [com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-8.4.0.aar\6b0b76a99c669542ed5170a9a62af5f0\AndroidManifest.xml:20:5-30:19
+MERGED from [com.google.android.gms:play-services-appstate:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-appstate-8.4.0.aar\ae5e68d8f463856f801d9f45130bd21e\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-appstate:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-appstate-8.4.0.aar\ae5e68d8f463856f801d9f45130bd21e\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-games:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-games-8.4.0.aar\084518afa0a320a41534252c36e35626\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-games:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-games-8.4.0.aar\084518afa0a320a41534252c36e35626\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-drive:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-drive-8.4.0.aar\f429810f9e8ce60099ef3dcc036bc484\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-drive:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-drive-8.4.0.aar\f429810f9e8ce60099ef3dcc036bc484\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-fitness:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-fitness-8.4.0.aar\3df1e0a3059dcb4ce94f7a392b3a8b49\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-fitness:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-fitness-8.4.0.aar\3df1e0a3059dcb4ce94f7a392b3a8b49\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-identity:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-identity-8.4.0.aar\d139779fbcd5d71c289f4399d5200c9a\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-identity:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-identity-8.4.0.aar\d139779fbcd5d71c289f4399d5200c9a\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-location:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-location-8.4.0.aar\304dcba6660ba33093f37b962f5d35e9\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-location:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-location-8.4.0.aar\304dcba6660ba33093f37b962f5d35e9\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-maps-8.4.0.aar\e29ba2f1c66761c4216094e2b35d423b\AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-maps-8.4.0.aar\e29ba2f1c66761c4216094e2b35d423b\AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-nearby:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-nearby-8.4.0.aar\d60f6b6c43f67ed83e080f345fe39c18\AndroidManifest.xml:20:5-20
+MERGED from [com.google.android.gms:play-services-nearby:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-nearby-8.4.0.aar\d60f6b6c43f67ed83e080f345fe39c18\AndroidManifest.xml:20:5-20
+MERGED from [com.google.android.gms:play-services-panorama:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-panorama-8.4.0.aar\cc4a50d0b5f98fe068e7d5e16da1dca7\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-panorama:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-panorama-8.4.0.aar\cc4a50d0b5f98fe068e7d5e16da1dca7\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-plus:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-plus-8.4.0.aar\fc2e8ffe05084e21f87f8c78c553839b\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-plus:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-plus-8.4.0.aar\fc2e8ffe05084e21f87f8c78c553839b\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-safetynet-8.4.0.aar\15edcc69d83867a0a6badde7f43b7562\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-safetynet-8.4.0.aar\15edcc69d83867a0a6badde7f43b7562\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-vision:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-vision-8.4.0.aar\964a37aca5d4c3831d7eec4f0db9fd3c\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-vision:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-vision-8.4.0.aar\964a37aca5d4c3831d7eec4f0db9fd3c\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-measurement-8.4.0.aar\c71a704e2a8c53db2bf78ef5f6a14b30\AndroidManifest.xml:26:5-46:19
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-measurement-8.4.0.aar\c71a704e2a8c53db2bf78ef5f6a14b30\AndroidManifest.xml:26:5-46:19
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-basement-8.4.0.aar\6e1dde1c3102ea69396eb23d3f0c0270\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-basement-8.4.0.aar\6e1dde1c3102ea69396eb23d3f0c0270\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.support:wearable:1.3.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\wearable-1.3.0.aar\8eb5fc29599680a6e3500a37f13bce08\AndroidManifest.xml:8:5-20
+MERGED from [com.google.android.support:wearable:1.3.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\wearable-1.3.0.aar\8eb5fc29599680a6e3500a37f13bce08\AndroidManifest.xml:8:5-20
+MERGED from [com.android.support:recyclerview-v7:22.0.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-22.0.0.aar\d05e46f36e1146a94315e54685ed8583\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:22.0.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-22.0.0.aar\d05e46f36e1146a94315e54685ed8583\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\support-v4-23.1.1.aar\792f5d2fbc75abfac85fd90ab004123c\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\support-v4-23.1.1.aar\792f5d2fbc75abfac85fd90ab004123c\AndroidManifest.xml:22:5-20
+	android:supportsRtl
+		ADDED from C:\Users\Mario\Desktop\VideoGame\AndroidStudio\MarioBrosLibGDX\Game\mobile\AndroidManifest.xml:14:9-35
+	android:label
+		ADDED from C:\Users\Mario\Desktop\VideoGame\AndroidStudio\MarioBrosLibGDX\Game\mobile\AndroidManifest.xml:13:9-41
+	android:icon
+		ADDED from C:\Users\Mario\Desktop\VideoGame\AndroidStudio\MarioBrosLibGDX\Game\mobile\AndroidManifest.xml:12:9-45
+	android:allowBackup
+		ADDED from C:\Users\Mario\Desktop\VideoGame\AndroidStudio\MarioBrosLibGDX\Game\mobile\AndroidManifest.xml:11:9-35
+	android:theme
+		ADDED from C:\Users\Mario\Desktop\VideoGame\AndroidStudio\MarioBrosLibGDX\Game\mobile\AndroidManifest.xml:15:9-40
+activity#com.spiretos.mariobros.MainActivity
+ADDED from C:\Users\Mario\Desktop\VideoGame\AndroidStudio\MarioBrosLibGDX\Game\mobile\AndroidManifest.xml:16:9-25:20
+	android:screenOrientation
+		ADDED from C:\Users\Mario\Desktop\VideoGame\AndroidStudio\MarioBrosLibGDX\Game\mobile\AndroidManifest.xml:19:13-50
+	android:label
+		ADDED from C:\Users\Mario\Desktop\VideoGame\AndroidStudio\MarioBrosLibGDX\Game\mobile\AndroidManifest.xml:18:13-45
+	android:configChanges
+		ADDED from C:\Users\Mario\Desktop\VideoGame\AndroidStudio\MarioBrosLibGDX\Game\mobile\AndroidManifest.xml:20:13-94
+	android:name
+		ADDED from C:\Users\Mario\Desktop\VideoGame\AndroidStudio\MarioBrosLibGDX\Game\mobile\AndroidManifest.xml:17:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Mario\Desktop\VideoGame\AndroidStudio\MarioBrosLibGDX\Game\mobile\AndroidManifest.xml:21:13-24:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Mario\Desktop\VideoGame\AndroidStudio\MarioBrosLibGDX\Game\mobile\AndroidManifest.xml:22:17-69
+	android:name
+		ADDED from C:\Users\Mario\Desktop\VideoGame\AndroidStudio\MarioBrosLibGDX\Game\mobile\AndroidManifest.xml:22:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Mario\Desktop\VideoGame\AndroidStudio\MarioBrosLibGDX\Game\mobile\AndroidManifest.xml:23:17-77
+	android:name
+		ADDED from C:\Users\Mario\Desktop\VideoGame\AndroidStudio\MarioBrosLibGDX\Game\mobile\AndroidManifest.xml:23:27-74
+activity#com.spiretos.mariobros.Screens.GameActivity
+ADDED from C:\Users\Mario\Desktop\VideoGame\AndroidStudio\MarioBrosLibGDX\Game\mobile\AndroidManifest.xml:26:9-27:20
+	android:name
+		ADDED from C:\Users\Mario\Desktop\VideoGame\AndroidStudio\MarioBrosLibGDX\Game\mobile\AndroidManifest.xml:26:19-55
+activity#com.spiretos.mariobros.AndroidLauncher
+ADDED from C:\Users\Mario\Desktop\VideoGame\AndroidStudio\MarioBrosLibGDX\Game\mobile\AndroidManifest.xml:28:9-31:20
+	android:screenOrientation
+		ADDED from C:\Users\Mario\Desktop\VideoGame\AndroidStudio\MarioBrosLibGDX\Game\mobile\AndroidManifest.xml:30:13-50
+	android:name
+		ADDED from C:\Users\Mario\Desktop\VideoGame\AndroidStudio\MarioBrosLibGDX\Game\mobile\AndroidManifest.xml:29:13-44
+uses-sdk
+INJECTED from C:\Users\Mario\Desktop\VideoGame\AndroidStudio\MarioBrosLibGDX\Game\mobile\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Mario\Desktop\VideoGame\AndroidStudio\MarioBrosLibGDX\Game\mobile\AndroidManifest.xml
+INJECTED from C:\Users\Mario\Desktop\VideoGame\AndroidStudio\MarioBrosLibGDX\Game\mobile\AndroidManifest.xml
+MERGED from [:wearemote] C:\Users\Mario\Desktop\VideoGame\AndroidStudio\MarioBrosLibGDX\Game\wearemote\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:wearemote] C:\Users\Mario\Desktop\VideoGame\AndroidStudio\MarioBrosLibGDX\Game\wearemote\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-8.4.0.aar\2ac1b1b36845844286b10572a6a51f4f\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-8.4.0.aar\2ac1b1b36845844286b10572a6a51f4f\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-cast:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-cast-8.4.0.aar\918cd635e5ad6face13c9826a6f78190\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-cast:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-cast-8.4.0.aar\918cd635e5ad6face13c9826a6f78190\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:mediarouter-v7:23.0.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\mediarouter-v7-23.0.0.aar\d931cceda93fbc9b5d0423fe64f622af\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:mediarouter-v7:23.0.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\mediarouter-v7-23.0.0.aar\d931cceda93fbc9b5d0423fe64f622af\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.1.1.aar\d035e3b52e02ec05f19ac9505bf552ff\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.1.1.aar\d035e3b52e02ec05f19ac9505bf552ff\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-ads-8.4.0.aar\379f7ef2d58282f2250bb4f6de10ba71\AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-ads-8.4.0.aar\379f7ef2d58282f2250bb4f6de10ba71\AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-auth:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-auth-8.4.0.aar\2454ab9d123b14140f9053cf811fc479\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-auth:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-auth-8.4.0.aar\2454ab9d123b14140f9053cf811fc479\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-gcm:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-gcm-8.4.0.aar\03c3864483542987c6c71868c48e6b72\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-gcm:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-gcm-8.4.0.aar\03c3864483542987c6c71868c48e6b72\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-analytics:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-analytics-8.4.0.aar\46f941cbccf339226f8497c488e9427a\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-analytics:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-analytics-8.4.0.aar\46f941cbccf339226f8497c488e9427a\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-wearable:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-wearable-8.4.0.aar\7bf2e1615d047399817423ef98be711a\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-wearable:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-wearable-8.4.0.aar\7bf2e1615d047399817423ef98be711a\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-appindexing-8.4.0.aar\a72a41b4b8fa95bed6b4ccc2f69c7abb\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-appindexing-8.4.0.aar\a72a41b4b8fa95bed6b4ccc2f69c7abb\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-8.4.0.aar\6b0b76a99c669542ed5170a9a62af5f0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-8.4.0.aar\6b0b76a99c669542ed5170a9a62af5f0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appstate:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-appstate-8.4.0.aar\ae5e68d8f463856f801d9f45130bd21e\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appstate:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-appstate-8.4.0.aar\ae5e68d8f463856f801d9f45130bd21e\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-games:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-games-8.4.0.aar\084518afa0a320a41534252c36e35626\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-games:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-games-8.4.0.aar\084518afa0a320a41534252c36e35626\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-drive:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-drive-8.4.0.aar\f429810f9e8ce60099ef3dcc036bc484\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-drive:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-drive-8.4.0.aar\f429810f9e8ce60099ef3dcc036bc484\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-fitness:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-fitness-8.4.0.aar\3df1e0a3059dcb4ce94f7a392b3a8b49\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-fitness:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-fitness-8.4.0.aar\3df1e0a3059dcb4ce94f7a392b3a8b49\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-wallet:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-wallet-8.4.0.aar\bdb92e0f9fe4095331c7cb368e5c6b12\AndroidManifest.xml:19:5-42
+MERGED from [com.google.android.gms:play-services-wallet:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-wallet-8.4.0.aar\bdb92e0f9fe4095331c7cb368e5c6b12\AndroidManifest.xml:19:5-42
+MERGED from [com.google.android.gms:play-services-identity:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-identity-8.4.0.aar\d139779fbcd5d71c289f4399d5200c9a\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-identity:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-identity-8.4.0.aar\d139779fbcd5d71c289f4399d5200c9a\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-location:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-location-8.4.0.aar\304dcba6660ba33093f37b962f5d35e9\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-location:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-location-8.4.0.aar\304dcba6660ba33093f37b962f5d35e9\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-maps-8.4.0.aar\e29ba2f1c66761c4216094e2b35d423b\AndroidManifest.xml:26:5-42
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-maps-8.4.0.aar\e29ba2f1c66761c4216094e2b35d423b\AndroidManifest.xml:26:5-42
+MERGED from [com.google.android.gms:play-services-nearby:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-nearby-8.4.0.aar\d60f6b6c43f67ed83e080f345fe39c18\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-nearby:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-nearby-8.4.0.aar\d60f6b6c43f67ed83e080f345fe39c18\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-panorama:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-panorama-8.4.0.aar\cc4a50d0b5f98fe068e7d5e16da1dca7\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-panorama:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-panorama-8.4.0.aar\cc4a50d0b5f98fe068e7d5e16da1dca7\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-plus:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-plus-8.4.0.aar\fc2e8ffe05084e21f87f8c78c553839b\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-plus:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-plus-8.4.0.aar\fc2e8ffe05084e21f87f8c78c553839b\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-safetynet:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-safetynet-8.4.0.aar\15edcc69d83867a0a6badde7f43b7562\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-safetynet:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-safetynet-8.4.0.aar\15edcc69d83867a0a6badde7f43b7562\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-vision:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-vision-8.4.0.aar\964a37aca5d4c3831d7eec4f0db9fd3c\AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-vision:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-vision-8.4.0.aar\964a37aca5d4c3831d7eec4f0db9fd3c\AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-base-8.4.0.aar\f8972ad59469ed5967eb3f9751a4e52f\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-base-8.4.0.aar\f8972ad59469ed5967eb3f9751a4e52f\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-measurement-8.4.0.aar\c71a704e2a8c53db2bf78ef5f6a14b30\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-measurement-8.4.0.aar\c71a704e2a8c53db2bf78ef5f6a14b30\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-basement-8.4.0.aar\6e1dde1c3102ea69396eb23d3f0c0270\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-basement-8.4.0.aar\6e1dde1c3102ea69396eb23d3f0c0270\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.support:wearable:1.3.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\wearable-1.3.0.aar\8eb5fc29599680a6e3500a37f13bce08\AndroidManifest.xml:4:5-6:41
+MERGED from [com.google.android.support:wearable:1.3.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\wearable-1.3.0.aar\8eb5fc29599680a6e3500a37f13bce08\AndroidManifest.xml:4:5-6:41
+MERGED from [com.android.support:recyclerview-v7:22.0.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-22.0.0.aar\d05e46f36e1146a94315e54685ed8583\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:22.0.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-22.0.0.aar\d05e46f36e1146a94315e54685ed8583\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\support-v4-23.1.1.aar\792f5d2fbc75abfac85fd90ab004123c\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\support-v4-23.1.1.aar\792f5d2fbc75abfac85fd90ab004123c\AndroidManifest.xml:20:5-43
+INJECTED from C:\Users\Mario\Desktop\VideoGame\AndroidStudio\MarioBrosLibGDX\Game\mobile\AndroidManifest.xml
+INJECTED from C:\Users\Mario\Desktop\VideoGame\AndroidStudio\MarioBrosLibGDX\Game\mobile\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Mario\Desktop\VideoGame\AndroidStudio\MarioBrosLibGDX\Game\mobile\AndroidManifest.xml
+		ADDED from C:\Users\Mario\Desktop\VideoGame\AndroidStudio\MarioBrosLibGDX\Game\mobile\AndroidManifest.xml
+		INJECTED from C:\Users\Mario\Desktop\VideoGame\AndroidStudio\MarioBrosLibGDX\Game\mobile\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Mario\Desktop\VideoGame\AndroidStudio\MarioBrosLibGDX\Game\mobile\AndroidManifest.xml
+		ADDED from C:\Users\Mario\Desktop\VideoGame\AndroidStudio\MarioBrosLibGDX\Game\mobile\AndroidManifest.xml
+		INJECTED from C:\Users\Mario\Desktop\VideoGame\AndroidStudio\MarioBrosLibGDX\Game\mobile\AndroidManifest.xml
+service#com.spiretos.wearemote.communication.AppListenerService
+ADDED from [:wearemote] C:\Users\Mario\Desktop\VideoGame\AndroidStudio\MarioBrosLibGDX\Game\wearemote\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:9-19:19
+	android:name
+		ADDED from [:wearemote] C:\Users\Mario\Desktop\VideoGame\AndroidStudio\MarioBrosLibGDX\Game\wearemote\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:18-88
+intent-filter#action:name:com.google.android.gms.wearable.BIND_LISTENER
+ADDED from [:wearemote] C:\Users\Mario\Desktop\VideoGame\AndroidStudio\MarioBrosLibGDX\Game\wearemote\build\intermediates\manifests\full\debug\AndroidManifest.xml:16:13-18:29
+action#com.google.android.gms.wearable.BIND_LISTENER
+ADDED from [:wearemote] C:\Users\Mario\Desktop\VideoGame\AndroidStudio\MarioBrosLibGDX\Game\wearemote\build\intermediates\manifests\full\debug\AndroidManifest.xml:17:17-88
+	android:name
+		ADDED from [:wearemote] C:\Users\Mario\Desktop\VideoGame\AndroidStudio\MarioBrosLibGDX\Game\wearemote\build\intermediates\manifests\full\debug\AndroidManifest.xml:17:25-85
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-ads-8.4.0.aar\379f7ef2d58282f2250bb4f6de10ba71\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-gcm:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-gcm-8.4.0.aar\03c3864483542987c6c71868c48e6b72\AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-gcm:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-gcm-8.4.0.aar\03c3864483542987c6c71868c48e6b72\AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-analytics:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-analytics-8.4.0.aar\46f941cbccf339226f8497c488e9427a\AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-analytics:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-analytics-8.4.0.aar\46f941cbccf339226f8497c488e9427a\AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-8.4.0.aar\6b0b76a99c669542ed5170a9a62af5f0\AndroidManifest.xml:19:5-67
+MERGED from [com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-8.4.0.aar\6b0b76a99c669542ed5170a9a62af5f0\AndroidManifest.xml:19:5-67
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-maps-8.4.0.aar\e29ba2f1c66761c4216094e2b35d423b\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-maps-8.4.0.aar\e29ba2f1c66761c4216094e2b35d423b\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-measurement-8.4.0.aar\c71a704e2a8c53db2bf78ef5f6a14b30\AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-measurement-8.4.0.aar\c71a704e2a8c53db2bf78ef5f6a14b30\AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-ads-8.4.0.aar\379f7ef2d58282f2250bb4f6de10ba71\AndroidManifest.xml:20:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-ads-8.4.0.aar\379f7ef2d58282f2250bb4f6de10ba71\AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-analytics:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-analytics-8.4.0.aar\46f941cbccf339226f8497c488e9427a\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-analytics:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-analytics-8.4.0.aar\46f941cbccf339226f8497c488e9427a\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-maps-8.4.0.aar\e29ba2f1c66761c4216094e2b35d423b\AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-maps-8.4.0.aar\e29ba2f1c66761c4216094e2b35d423b\AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-nearby:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-nearby-8.4.0.aar\d60f6b6c43f67ed83e080f345fe39c18\AndroidManifest.xml:19:5-79
+MERGED from [com.google.android.gms:play-services-nearby:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-nearby-8.4.0.aar\d60f6b6c43f67ed83e080f345fe39c18\AndroidManifest.xml:19:5-79
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-measurement-8.4.0.aar\c71a704e2a8c53db2bf78ef5f6a14b30\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-measurement-8.4.0.aar\c71a704e2a8c53db2bf78ef5f6a14b30\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-ads-8.4.0.aar\379f7ef2d58282f2250bb4f6de10ba71\AndroidManifest.xml:21:22-76
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-ads-8.4.0.aar\379f7ef2d58282f2250bb4f6de10ba71\AndroidManifest.xml:26:9-29:64
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-ads-8.4.0.aar\379f7ef2d58282f2250bb4f6de10ba71\AndroidManifest.xml:28:13-122
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-ads-8.4.0.aar\379f7ef2d58282f2250bb4f6de10ba71\AndroidManifest.xml:29:13-61
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-ads-8.4.0.aar\379f7ef2d58282f2250bb4f6de10ba71\AndroidManifest.xml:27:13-65
+activity#com.google.android.gms.ads.purchase.InAppPurchaseActivity
+ADDED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-ads-8.4.0.aar\379f7ef2d58282f2250bb4f6de10ba71\AndroidManifest.xml:30:9-31:52
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-ads-8.4.0.aar\379f7ef2d58282f2250bb4f6de10ba71\AndroidManifest.xml:31:13-50
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-ads-8.4.0.aar\379f7ef2d58282f2250bb4f6de10ba71\AndroidManifest.xml:30:19-91
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-auth-8.4.0.aar\2454ab9d123b14140f9053cf811fc479\AndroidManifest.xml:21:9-24:46
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-auth-8.4.0.aar\2454ab9d123b14140f9053cf811fc479\AndroidManifest.xml:23:19-52
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-auth-8.4.0.aar\2454ab9d123b14140f9053cf811fc479\AndroidManifest.xml:24:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-auth-8.4.0.aar\2454ab9d123b14140f9053cf811fc479\AndroidManifest.xml:22:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-auth-8.4.0.aar\2454ab9d123b14140f9053cf811fc479\AndroidManifest.xml:21:19-72
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-auth-8.4.0.aar\2454ab9d123b14140f9053cf811fc479\AndroidManifest.xml:28:9-31:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-auth-8.4.0.aar\2454ab9d123b14140f9053cf811fc479\AndroidManifest.xml:30:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-auth-8.4.0.aar\2454ab9d123b14140f9053cf811fc479\AndroidManifest.xml:31:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-auth-8.4.0.aar\2454ab9d123b14140f9053cf811fc479\AndroidManifest.xml:29:13-62
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.android.gms:play-services-gcm:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-gcm-8.4.0.aar\03c3864483542987c6c71868c48e6b72\AndroidManifest.xml:21:5-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-gcm:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-gcm-8.4.0.aar\03c3864483542987c6c71868c48e6b72\AndroidManifest.xml:21:22-79
+activity#com.google.android.gms.appinvite.PreviewActivity
+ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-8.4.0.aar\6b0b76a99c669542ed5170a9a62af5f0\AndroidManifest.xml:21:9-29:20
+	android:exported
+		ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-8.4.0.aar\6b0b76a99c669542ed5170a9a62af5f0\AndroidManifest.xml:23:17-40
+	android:theme
+		ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-8.4.0.aar\6b0b76a99c669542ed5170a9a62af5f0\AndroidManifest.xml:24:17-63
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-8.4.0.aar\6b0b76a99c669542ed5170a9a62af5f0\AndroidManifest.xml:22:17-48
+intent-filter#action:name:com.google.android.gms.appinvite.ACTION_PREVIEW+category:name:android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-8.4.0.aar\6b0b76a99c669542ed5170a9a62af5f0\AndroidManifest.xml:25:13-28:29
+action#com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-8.4.0.aar\6b0b76a99c669542ed5170a9a62af5f0\AndroidManifest.xml:26:17-89
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-8.4.0.aar\6b0b76a99c669542ed5170a9a62af5f0\AndroidManifest.xml:26:25-87
+category#android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-8.4.0.aar\6b0b76a99c669542ed5170a9a62af5f0\AndroidManifest.xml:27:17-75
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-8.4.0.aar\6b0b76a99c669542ed5170a9a62af5f0\AndroidManifest.xml:27:27-73
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-maps-8.4.0.aar\e29ba2f1c66761c4216094e2b35d423b\AndroidManifest.xml:22:5-24:33
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-maps-8.4.0.aar\e29ba2f1c66761c4216094e2b35d423b\AndroidManifest.xml:23:8-40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-maps-8.4.0.aar\e29ba2f1c66761c4216094e2b35d423b\AndroidManifest.xml:24:8-31
+provider#com.google.android.gms.measurement.AppMeasurementContentProvider
+ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-measurement-8.4.0.aar\c71a704e2a8c53db2bf78ef5f6a14b30\AndroidManifest.xml:28:7-31:37
+	android:authorities
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-measurement-8.4.0.aar\c71a704e2a8c53db2bf78ef5f6a14b30\AndroidManifest.xml:29:11-76
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-measurement-8.4.0.aar\c71a704e2a8c53db2bf78ef5f6a14b30\AndroidManifest.xml:31:11-35
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-measurement-8.4.0.aar\c71a704e2a8c53db2bf78ef5f6a14b30\AndroidManifest.xml:30:11-90
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-measurement-8.4.0.aar\c71a704e2a8c53db2bf78ef5f6a14b30\AndroidManifest.xml:33:7-39:18
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-measurement-8.4.0.aar\c71a704e2a8c53db2bf78ef5f6a14b30\AndroidManifest.xml:35:11-33
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-measurement-8.4.0.aar\c71a704e2a8c53db2bf78ef5f6a14b30\AndroidManifest.xml:34:11-83
+intent-filter#action:name:com.google.android.gms.measurement.UPLOAD
+ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-measurement-8.4.0.aar\c71a704e2a8c53db2bf78ef5f6a14b30\AndroidManifest.xml:36:9-38:25
+action#com.google.android.gms.measurement.UPLOAD
+ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-measurement-8.4.0.aar\c71a704e2a8c53db2bf78ef5f6a14b30\AndroidManifest.xml:37:11-77
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-measurement-8.4.0.aar\c71a704e2a8c53db2bf78ef5f6a14b30\AndroidManifest.xml:37:19-75
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-measurement-8.4.0.aar\c71a704e2a8c53db2bf78ef5f6a14b30\AndroidManifest.xml:41:7-44:37
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-measurement-8.4.0.aar\c71a704e2a8c53db2bf78ef5f6a14b30\AndroidManifest.xml:43:11-33
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-measurement-8.4.0.aar\c71a704e2a8c53db2bf78ef5f6a14b30\AndroidManifest.xml:44:11-35
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-measurement-8.4.0.aar\c71a704e2a8c53db2bf78ef5f6a14b30\AndroidManifest.xml:42:11-82
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-basement-8.4.0.aar\6e1dde1c3102ea69396eb23d3f0c0270\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-basement-8.4.0.aar\6e1dde1c3102ea69396eb23d3f0c0270\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\play-services-basement-8.4.0.aar\6e1dde1c3102ea69396eb23d3f0c0270\AndroidManifest.xml:22:13-58
+activity#android.support.v7.widget.TestActivity
+ADDED from [com.android.support:recyclerview-v7:22.0.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-22.0.0.aar\d05e46f36e1146a94315e54685ed8583\AndroidManifest.xml:23:9-25:56
+	android:label
+		ADDED from [com.android.support:recyclerview-v7:22.0.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-22.0.0.aar\d05e46f36e1146a94315e54685ed8583\AndroidManifest.xml:25:13-53
+	android:name
+		ADDED from [com.android.support:recyclerview-v7:22.0.0] C:\Users\Mario\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-22.0.0.aar\d05e46f36e1146a94315e54685ed8583\AndroidManifest.xml:24:13-66

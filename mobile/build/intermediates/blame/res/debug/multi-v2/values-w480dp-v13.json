@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Mario\\Desktop\\VideoGame\\AndroidStudio\\MarioBrosLibGDX\\Game\\mobile\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w480dp-v13\\values-w480dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Mario\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.1.1.aar\\d035e3b52e02ec05f19ac9505bf552ff\\res\\values-w480dp\\values-w480dp.xml",
+                    "from": {
+                        "startLines": "4,7",
+                        "startColumns": "4,4",
+                        "startOffsets": "231,470",
+                        "endColumns": "61,71",
+                        "endOffsets": "288,537"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,117",
+                        "endColumns": "61,71",
+                        "endOffsets": "112,184"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Mario\\Desktop\\VideoGame\\AndroidStudio\\MarioBrosLibGDX\\Game\\mobile\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v20\\values-v20.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Mario\\.gradle\\caches\\transforms-1\\files-1.1\\wearable-1.3.0.aar\\8eb5fc29599680a6e3500a37f13bce08\\res\\values-v20\\values.xml",
+                    "from": {
+                        "startLines": "4,7,10,16,31,35,39,43,47,51,55,59,63,67,68",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "329,463,610,939,1631,1854,2078,2301,2546,2761,3008,3225,3470,3685,3758",
+                        "endLines": "6,9,15,30,34,38,42,46,50,54,58,62,66,67,70",
+                        "endColumns": "12,12,12,12,12,12,12,12,12,12,12,12,12,72,12",
+                        "endOffsets": "458,605,934,1626,1849,2073,2296,2541,2756,3003,3220,3465,3680,3753,3869"
+                    },
+                    "to": {
+                        "startLines": "2,5,8,14,29,33,37,41,45,49,53,57,61,65,66",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,189,336,665,1357,1580,1804,2027,2272,2487,2734,2951,3196,3411,3484",
+                        "endLines": "4,7,13,28,32,36,40,44,48,52,56,60,64,65,68",
+                        "endColumns": "12,12,12,12,12,12,12,12,12,12,12,12,12,72,12",
+                        "endOffsets": "184,331,660,1352,1575,1799,2022,2267,2482,2729,2946,3191,3406,3479,3595"
+                    }
+                }
+            ]
+        }
+    ]
+}

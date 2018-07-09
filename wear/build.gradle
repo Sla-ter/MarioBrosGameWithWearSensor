@@ -5,7 +5,7 @@ android {
 
 
     defaultConfig {
-        applicationId "com.spiretos.wear"
+        applicationId "com.spiretos.mariobros"
         minSdkVersion 22
         targetSdkVersion 23
         versionCode 2
@@ -17,6 +17,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    buildToolsVersion '27.0.3'
 }
 
 dependencies {

@@ -1,2 +1,1 @@
-include ':wear', ':wearemote'
-include 'android', 'core'
+include ':wear', ':wearemote', 'mobile'
