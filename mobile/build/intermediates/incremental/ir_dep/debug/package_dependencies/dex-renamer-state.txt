@@ -1,4 +1,4 @@
-#Mon Jul 09 19:11:36 EDT 2018
+#Fri Jul 13 17:51:13 EDT 2018
 base.0=C\:\\Users\\Mario\\Desktop\\VideoGame\\AndroidStudio\\MarioBrosLibGDX\\Game\\mobile\\build\\intermediates\\transforms\\dexMerger\\debug\\10
 path.1=classes2.dex
 renamed.1=classes2.dex

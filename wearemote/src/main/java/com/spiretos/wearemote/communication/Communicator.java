@@ -155,7 +155,7 @@ public class Communicator implements GoogleApiClient.ConnectionCallbacks, Google
             if (mOutputStream!=null)
             {
                 mOutputStream.write(data);
-                //Log.v("data","wear sent");
+                Log.v("data","wear sent");
             }
         }
         catch (IOException e)

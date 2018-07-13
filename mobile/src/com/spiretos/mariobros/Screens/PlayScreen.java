@@ -1,5 +1,13 @@
 package com.spiretos.mariobros.Screens;
 
+import android.content.Context;
+import android.hardware.Sensor;
+import android.hardware.SensorEvent;
+import android.hardware.SensorEventListener;
+import android.hardware.SensorManager;
+import android.os.Bundle;
+import android.util.Log;
+
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Input;
 import com.badlogic.gdx.InputProcessor;
@@ -27,11 +35,11 @@ import com.spiretos.mariobros.Sprites.Mario;
 import com.spiretos.mariobros.Tools.B2WorldCreator;
 import com.spiretos.mariobros.Tools.WorldContactListener;
 
-//import com.spiretos.wearemote.receiver.ReceiverActivity;
+
 
 import java.util.concurrent.LinkedBlockingQueue;
 
-public class PlayScreen implements Screen, InputProcessor{
+public class PlayScreen implements Screen, InputProcessor {
     private MarioBros game;
     private TextureAtlas atlas;
 
@@ -53,8 +61,6 @@ public class PlayScreen implements Screen, InputProcessor{
 
     private Array<Item> items;
     private LinkedBlockingQueue<ItemDef> itemsToSpawn;
-
-    PlayScreen mGameEngine;
 
 
     boolean available;
@@ -83,6 +89,7 @@ public class PlayScreen implements Screen, InputProcessor{
         creator = new B2WorldCreator(this);
 
         player = new Mario(this);
+        //player = new Mario();
 
         world.setContactListener(new WorldContactListener());
 
@@ -151,6 +158,7 @@ public class PlayScreen implements Screen, InputProcessor{
         }
     }*/
 
+
     @Override
     public boolean keyDown(int keycode) {
         return false;
@@ -195,6 +203,8 @@ public class PlayScreen implements Screen, InputProcessor{
     public void update(float dt) {
         //handleInput(dt);
         handleSpawningItems();
+        setMarioSpeedY(dt);
+        //marioMovement((int)dt);
 
         world.step(1/60f, 6, 2);
 
@@ -219,6 +229,13 @@ public class PlayScreen implements Screen, InputProcessor{
 
         gameCam.position.x = player.b2Body.getPosition().x;
 
+       // player.setAvailableSpace(player.b2Body.getPosition().x);
+
+       // player.calculatePosition();
+        //setMarioSpeedX(dt);
+        //setMarioSpeedY(dt);
+
+
         /*if (accelY >= 1 && accelY <= 9 && player.b2Body.getLinearVelocity().x <= 2) {
             player.b2Body.applyLinearImpulse(new Vector2(0.1f, 0f), player.b2Body.getWorldCenter(), true);
         }
@@ -230,9 +247,6 @@ public class PlayScreen implements Screen, InputProcessor{
         gameCam.update();
         renderer.setView(gameCam);
 
-        player.setAvailableSpace(world.getFixtureCount());
-
-        player.calculatePosition();
 
 
     }
@@ -266,20 +280,40 @@ public class PlayScreen implements Screen, InputProcessor{
             game.setScreen(new GameOverScreen(game));
             dispose();
         }
-        float x = player.getPosition();
+
+
 
 
     }
 
-    public void setMarioSpeedY(float y)
-    {
-        player.setSpeed(y * 130f);
+    public void setMarioSpeedY(float y) {
+
+        if((player.setSpeed(y) == 0f)){
+            player.b2Body.applyLinearImpulse(new Vector2(0, 0), player.b2Body.getWorldCenter(), true);
+        }
+        else if((player.setSpeed(y) >= 1f) && (player.b2Body.getLinearVelocity().x <= 1)) {
+            player.b2Body.applyLinearImpulse(new Vector2(0.1f, 0), player.b2Body.getWorldCenter(), true);
+        }
+        else if((player.setSpeed(y) <= -1f) && (player.b2Body.getLinearVelocity().x >= -1)) {
+            player.b2Body.applyLinearImpulse(new Vector2(-0.1f, 0), player.b2Body.getWorldCenter(), true);
+        }
+
+        //player.setSpeed(y * 130f);
     }
 
-    public void setMarioSpeedX(float x)
-    {
-        player.setSpeed(x * 130f);
-    }
+    /*public void marioMovement(int value) {
+
+        if(value == 0){
+            player.b2Body.applyLinearImpulse(new Vector2(0, 0), player.b2Body.getWorldCenter(), true);
+        }
+        if((value >= 1) && (player.b2Body.getLinearVelocity().x <= 1)) {
+            player.b2Body.applyLinearImpulse(new Vector2(0.1f, 0), player.b2Body.getWorldCenter(), true);
+        }
+        if((value <= -1) && (player.b2Body.getLinearVelocity().x >= -1)) {
+            player.b2Body.applyLinearImpulse(new Vector2(-0.1f, 0), player.b2Body.getWorldCenter(), true);
+        }
+    }*/
+
 
     public boolean gameOver(){
         if(player.currentState == Mario.State.DEAD && player.getStateTimer() > 3){
@@ -326,4 +360,5 @@ public class PlayScreen implements Screen, InputProcessor{
         hud.dispose();
 
     }
+
 }

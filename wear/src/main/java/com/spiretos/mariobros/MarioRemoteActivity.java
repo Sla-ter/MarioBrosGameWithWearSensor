@@ -18,7 +18,7 @@ public class MarioRemoteActivity extends SensorActivity
     //private ImageView marioStanding;
     private ImageView marioImage;
 
-    float tempY, tempValueY, tempValueX, lastSendValueY, lastSendValueX, tempX;
+    float tempY, tempValueY, lastSendValueY;
 
 
     @Override
@@ -48,46 +48,36 @@ public class MarioRemoteActivity extends SensorActivity
         if (sensor.getName().equals("accelerometer"))
         {
             tempY = event.values[1];
-            tempX = event.values[1];
+            //tempX = event.values[1];
             tempValueY = 0;
-            tempValueX = 0;
+            //tempValueX = 0;
 
-            if (tempY < -6 || tempX < -6) {
+            if (tempY < -6) {
                 tempValueY = -3f;
-                tempValueX = -3f;
             }
-            else if (tempY < -4 || tempX < -4) {
+            else if (tempY < -4){
                 tempValueY = -2f;
-                tempValueX = -2f;
             }
-            else if (tempY < -2 || tempX < -2) {
+            else if (tempY < -2) {
                 tempValueY = -1f;
-                tempValueX = -1f;
             }
-            else if (tempY > 6 || tempX > 6) {
+            else if (tempY > 6) {
                 tempValueY = 3f;
-                tempValueX = 3f;
             }
-            else if (tempY > 4 || tempX > 4) {
+            else if (tempY > 4){
                 tempValueY = 2f;
-                tempValueX = 2f;
             }
-            else if (tempY > 2 || tempX > 2) {
+            else if (tempY > 2) {
                 tempValueY = 1f;
-                tempValueX = 1f;
             }
             else {
                 tempValueY = 0;
-                tempValueX = 0;
             }
 
-            if (tempValueY != lastSendValueY && tempValueY != lastSendValueX || tempValueX != lastSendValueX && tempValueX != lastSendValueX) {
+            if (tempValueY != lastSendValueY) {
                 lastSendValueY = tempValueY;
-                lastSendValueX = tempValueX;
                 sendSensorData("accelerometer_Y", lastSendValueY);
-                sendSensorData("accelerometer_X", lastSendValueX);
                 updateImage((int) lastSendValueY);
-                updateImage((int) lastSendValueX);
             }
         }
     }

@@ -57,7 +57,7 @@ public class AppListenerService extends WearableListenerService implements Googl
             {
                 float sensorValue = DataUtils.getFloatFrom(DataUtils.getStringFrom(messageEvent.getData()));
 
-                //Log.w("m-", "got '" + messageEvent.getPath() + "'=" + sensorValue);
+                Log.w("m-", "got '" + messageEvent.getPath() + "'=" + sensorValue);
 
                 Intent intent = new Intent("sensor_data");
                 intent.putExtra("type",messageEvent.getPath());

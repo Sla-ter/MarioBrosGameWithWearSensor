@@ -1,5 +1,7 @@
 package com.spiretos.mariobros;
 
+import android.util.Log;
+
 import com.badlogic.gdx.Game;
 import com.badlogic.gdx.assets.AssetManager;
 import com.badlogic.gdx.audio.Music;
@@ -7,6 +9,9 @@ import com.badlogic.gdx.audio.Sound;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 //import GameActivity;
 import com.spiretos.mariobros.Screens.PlayScreen;
+import com.spiretos.mariobros.Sprites.Mario;
+
+import junit.framework.Assert;
 
 public class MarioBros extends Game {
     public static final int V_WIDTH = 400;
@@ -25,11 +30,10 @@ public class MarioBros extends Game {
     public static final short ITEM_BIT = 256;
     public static final short MARIO_HEAD_BIT = 512;
 
-
+    private PlayScreen mPlayscreen;
     public SpriteBatch batch;
 
     public static AssetManager manager;
-
 
     @Override
     public void create () {
@@ -45,10 +49,14 @@ public class MarioBros extends Game {
         manager.load("audio/sounds/stomp.wav", Sound.class);
         manager.load("audio/sounds/mariodie.wav", Sound.class);
 
-
+        Log.i("DEBUG", "Finishing loading.........");
         manager.finishLoading();
+        mPlayscreen = new PlayScreen(this);
+        setScreen(mPlayscreen);
+    }
 
-        setScreen(new PlayScreen(this));
+    public PlayScreen getPlayscreen() {
+        return mPlayscreen;
     }
 
     @Override

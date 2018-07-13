@@ -21,6 +21,7 @@ import com.spiretos.mariobros.Sprites.Enemies.Enemy;
 import com.spiretos.mariobros.Sprites.Enemies.Turtle;
 
 public class Mario extends Sprite {
+
     public enum State { FALLING, JUMPING, STANDING, RUNNING, GROWING, DEAD };
     public State currentState;
     public State previousState;
@@ -125,12 +126,22 @@ public class Mario extends Sprite {
         }
     }
 
-    public void setSpeed(float speed)
+    public float setSpeed(float speed)
     {
         this.speed = speed;
+        /*if(speed == 0) {
+            return 0;
+        }
+        else if (speed >= 1) {
+            return 5;
+        }
+        else if (speed <= -1) {
+            return -5;
+        }*/
+        return speed;
     }
 
-    public void setAvailableSpace(float width)
+   /* public void setAvailableSpace(float width)
     {
         availableWidth = width;
     }
@@ -142,8 +153,9 @@ public class Mario extends Sprite {
 
     public void calculatePosition()
     {
+
         if (position == -1) //first time
-            position = availableWidth;
+            position = availableWidth / 2;
         else
         {
             long elapsedTime = System.currentTimeMillis() - lastTime;
@@ -158,10 +170,10 @@ public class Mario extends Sprite {
         }
     }
 
-    public float getPosition()
+    public float getMarioPosition()
     {
         return position;
-    }
+    }*/
 
     public TextureRegion getFrame(float dt) {
         currentState = getState();

@@ -76,13 +76,13 @@ public abstract class ReceiverActivity extends Activity
         {
             String type=intent.getStringExtra("type");
             float yValue = intent.getFloatExtra("value", 0);
-            float xValue = intent.getFloatExtra("value", 0);
+            //float xValue = intent.getFloatExtra("value", 0);
 
             Log.w("m-", "*** GOT '" + type + "'=" + yValue);
 
             //onYchanged(yValue);
             OnReceivedRemoteValue(type, yValue);
-            OnReceivedRemoteValue(type, xValue);
+            //OnReceivedRemoteValue(type, xValue);
         }
     };
 
