@@ -5,25 +5,28 @@
     build-mode="COLD"
     density="560dpi"
     format="10"
-    ir-eligibility="COMPATIBLE"
+    ir-eligibility="METHOD_ADDED"
     plugin-version="3.1.3"
-    timestamp="1531519580951"
+    timestamp="1531526489196"
     token="4962364889038879597"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="454" />
+        duration="842" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="82" />
+        duration="87" />
     <task
         name="verifier"
-        duration="9" />
+        duration="33" />
 
+    <artifact
+        location="C:\Users\Mario\Desktop\VideoGame\AndroidStudio\MarioBrosLibGDX\Game\mobile\build\intermediates\split-apk\debug\slices\slice_3.apk"
+        type="SPLIT" />
     <artifact
         location="C:\Users\Mario\Desktop\VideoGame\AndroidStudio\MarioBrosLibGDX\Game\mobile\build\intermediates\split-apk\debug\slices\slice_4.apk"
         type="SPLIT" />
@@ -74,9 +77,21 @@
     </build>
     <build
         build-mode="COLD"
-        ir-eligibility="COMPATIBLE"
-        timestamp="1531519580951"
+        ir-eligibility="METHOD_ADDED"
+        timestamp="1531522335497"
         verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\Mario\Desktop\VideoGame\AndroidStudio\MarioBrosLibGDX\Game\mobile\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        ir-eligibility="METHOD_ADDED"
+        timestamp="1531526489196"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\Mario\Desktop\VideoGame\AndroidStudio\MarioBrosLibGDX\Game\mobile\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            type="SPLIT" />
         <artifact
             location="C:\Users\Mario\Desktop\VideoGame\AndroidStudio\MarioBrosLibGDX\Game\mobile\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />

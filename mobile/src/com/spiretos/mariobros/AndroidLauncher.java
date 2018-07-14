@@ -7,13 +7,15 @@ import android.content.IntentFilter;
 import android.os.Bundle;
 import android.support.v4.content.LocalBroadcastManager;
 import android.util.Log;
+import android.view.MotionEvent;
+import android.view.View;
 
 import com.badlogic.gdx.backends.android.AndroidApplication;
 import com.badlogic.gdx.backends.android.AndroidApplicationConfiguration;
 import com.spiretos.mariobros.Screens.PlayScreen;
 import com.spiretos.wearemote.communication.Communicator;
 
-public class AndroidLauncher extends AndroidApplication  {
+public class AndroidLauncher extends AndroidApplication {
 
 	//public static final String GAME_MARIO = "game_space";
     Communicator mCommunicator;
@@ -62,15 +64,20 @@ public class AndroidLauncher extends AndroidApplication  {
             //OnReceivedRemoteValue(type, xValue);
         }
     };
+
     protected void OnReceivedRemoteValue(String type, float value) {
         Log.i("DEBUG", "Playscreen is " + mPlayScreen);
-        if (mPlayScreen == null) {
-            mPlayScreen = mMarioBros.getPlayscreen();
-            return;
-        }
-        mPlayScreen.setMarioSpeedY(value);
+            if (mPlayScreen == null) {
+                mPlayScreen = mMarioBros.getPlayscreen();
+                return;
+            }
+            mPlayScreen.setMarioSpeedY(value);
+
+
+        mPlayScreen.marioJump(false);
 
     }
+
 
     @Override
     protected void onResume()

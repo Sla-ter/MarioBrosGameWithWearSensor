@@ -128,52 +128,11 @@ public class Mario extends Sprite {
 
     public float setSpeed(float speed)
     {
-        this.speed = speed;
-        /*if(speed == 0) {
-            return 0;
-        }
-        else if (speed >= 1) {
-            return 5;
-        }
-        else if (speed <= -1) {
-            return -5;
-        }*/
-        return speed;
-    }
-
-   /* public void setAvailableSpace(float width)
-    {
-        availableWidth = width;
-    }
-
-    public void setAvailableSpaceHeight(float height)
-    {
-        availableHeight = height;
-    }
-
-    public void calculatePosition()
-    {
-
-        if (position == -1) //first time
-            position = availableWidth / 2;
-        else
-        {
-            long elapsedTime = System.currentTimeMillis() - lastTime;
-            position += elapsedTime * speed / 1000f;
-
-            if (position < 30)
-                position = 30;
-            else if (position > availableWidth - 20)
-                position = availableWidth - 20;
-
-            lastTime = System.currentTimeMillis();
+        while(true) {
+            this.speed = speed;
+            return speed;
         }
     }
-
-    public float getMarioPosition()
-    {
-        return position;
-    }*/
 
     public TextureRegion getFrame(float dt) {
         currentState = getState();

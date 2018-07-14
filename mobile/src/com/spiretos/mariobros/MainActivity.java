@@ -23,8 +23,8 @@ public class MainActivity extends AndroidLauncher {
 			@Override
 			public void onClick(View v)
 			{
-				Intent gameIntent=new Intent(MainActivity.this, GameActivity.class);
-				gameIntent.putExtra("game", GameActivity.GAME_SPACE);
+				Intent gameIntent=new Intent(MainActivity.this, AndroidLauncher.class);
+				//gameIntent.putExtra("game", GameActivity.GAME_SPACE);
 				startActivity(gameIntent);
 			}
 		});
