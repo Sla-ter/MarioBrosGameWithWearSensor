@@ -17,15 +17,16 @@ public class HUD implements Disposable {
     private Viewport viewport;
 
     private Integer worldTimer;
+    private boolean timeUp;
     private float timeCount;
     static private Integer score;
 
-    Label countdownLabel;
-    static Label scoreLabel;
-    Label timeLabel;
-    Label levelLabel;
-    Label worldLabel;
-    Label marioLabel;
+    private Label countdownLabel;
+    private static Label scoreLabel;
+    private Label timeLabel;
+    private Label levelLabel;
+    private Label worldLabel;
+    private Label marioLabel;
 
     public HUD(SpriteBatch sb) {
         worldTimer = 300;
@@ -63,10 +64,14 @@ public class HUD implements Disposable {
 
     }
 
-    public void update(float dt) {
+    public void update(float dt){
         timeCount += dt;
-        if(timeCount >= 1) {
-            worldTimer --;
+        if(timeCount >= 1){
+            if (worldTimer > 0) {
+                worldTimer--;
+            } else {
+                timeUp = true;
+            }
             countdownLabel.setText(String.format("%03d", worldTimer));
             timeCount = 0;
         }
@@ -80,5 +85,8 @@ public class HUD implements Disposable {
     @Override
     public void dispose() {
         stage.dispose();
+    }
+    public boolean isTimeUp() {
+        return timeUp;
     }
 }

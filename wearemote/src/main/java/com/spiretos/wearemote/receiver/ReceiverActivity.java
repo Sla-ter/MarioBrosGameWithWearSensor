@@ -53,6 +53,7 @@ public abstract class ReceiverActivity extends Activity
         super.onResume();
 
         LocalBroadcastManager.getInstance(this).registerReceiver(mMessageReceiver, new IntentFilter("sensor_data"));
+        LocalBroadcastManager.getInstance(this).registerReceiver(mMessageReceiverX, new IntentFilter("sensor_data"));
     }
 
     @Override
@@ -61,6 +62,10 @@ public abstract class ReceiverActivity extends Activity
         if (mMessageReceiver != null)
         {
             LocalBroadcastManager.getInstance(this).unregisterReceiver(mMessageReceiver);
+        }
+        if (mMessageReceiverX != null)
+        {
+            LocalBroadcastManager.getInstance(this).unregisterReceiver(mMessageReceiverX);
         }
 
         super.onPause();
@@ -86,6 +91,25 @@ public abstract class ReceiverActivity extends Activity
         }
     };
 
+    protected abstract void OnReceivedRemoteValueX(String type, float value);
+
+    private BroadcastReceiver mMessageReceiverX = new BroadcastReceiver()
+    {
+        @Override
+        public void onReceive(Context context, Intent intent)
+        {
+            String type=intent.getStringExtra("type");
+            //float yValue = intent.getFloatExtra("value", 0);
+            float xValue = intent.getFloatExtra("value", 0);
+
+            //Log.w("m-", "*** GOT '" + type + "'=" + yValue);
+            Log.w("m-", "*** GOT '" + type + "'=" + xValue);
+
+            //onYchanged(yValue);
+            //OnReceivedRemoteValue(type, yValue);
+            OnReceivedRemoteValueX(type, xValue);
+        }
+    };
 
     protected Communicator getCommunicator()
     {

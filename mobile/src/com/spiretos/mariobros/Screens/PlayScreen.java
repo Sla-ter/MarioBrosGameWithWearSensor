@@ -56,9 +56,6 @@ public class PlayScreen implements Screen, InputProcessor {
 
 
     boolean available;
-    private float accelX;
-    private float accelY;
-    private float accelZ;
 
 
 
@@ -94,9 +91,6 @@ public class PlayScreen implements Screen, InputProcessor {
 
         Gdx.input.setInputProcessor(this);
         available = Gdx.input.isPeripheralAvailable(Input.Peripheral.Accelerometer);
-        accelX = Gdx.input.getAccelerometerX();
-        accelY = Gdx.input.getAccelerometerY();
-        accelZ = Gdx.input.getAccelerometerZ();
 
     }
 
@@ -132,7 +126,7 @@ public class PlayScreen implements Screen, InputProcessor {
     public void handleInput(float dt) {
         if(player.currentState != Mario.State.DEAD) {
 
-            if ((Gdx.input.getAccelerometerY() >=1) && (player.b2Body.getLinearVelocity().x <= 2)) {
+            if ((Gdx.input.getAccelerometerY() >= 1) && (player.b2Body.getLinearVelocity().x <= 2)) {
                 player.b2Body.applyLinearImpulse(new Vector2(0.1f, 0f), player.b2Body.getWorldCenter(), true);
             }
             if ((Gdx.input.getAccelerometerY() <= -1) && (player.b2Body.getLinearVelocity().x >= -2)) {
@@ -210,16 +204,7 @@ public class PlayScreen implements Screen, InputProcessor {
             gameCam.position.x = player.b2Body.getPosition().x;
         }
 
-        gameCam.position.x = player.b2Body.getPosition().x;
-
-
-        /*if (accelY >= 1 && accelY <= 9 && player.b2Body.getLinearVelocity().x <= 2) {
-            player.b2Body.applyLinearImpulse(new Vector2(0.1f, 0f), player.b2Body.getWorldCenter(), true);
-        }
-        if (accelY >= -10 && accelY <= -1 && player.b2Body.getLinearVelocity().x >= -2) {
-            player.b2Body.applyLinearImpulse(new Vector2(-0.1f, 0f), player.b2Body.getWorldCenter(), true);
-        }*/
-        //System.out.println(Gdx.input.getAccelerometerY());
+       // gameCam.position.x = player.b2Body.getPosition().x;
 
         gameCam.update();
         renderer.setView(gameCam);
@@ -263,8 +248,8 @@ public class PlayScreen implements Screen, InputProcessor {
 
     }
 
-    public void marioJump(boolean jump) {
-        if(jump == true) {
+    public void marioJump(float jump) {
+        if(jump > 6) {
             player.jump();
         }
     }
@@ -272,9 +257,6 @@ public class PlayScreen implements Screen, InputProcessor {
     public void setMarioSpeedY(float y) {
 
         if(player.currentState != Mario.State.DEAD) {
-            if (player.setSpeed(y) == 0) {
-                player.b2Body.applyLinearImpulse(new Vector2(0, 0), player.b2Body.getWorldCenter(), true);
-            }
             if ((player.setSpeed(y) >= 1) && (player.b2Body.getLinearVelocity().x <= 2)) {
                 player.b2Body.applyLinearImpulse(new Vector2(0.1f, 0), player.b2Body.getWorldCenter(), true);
                 setMarioSpeedY(y);
@@ -287,22 +269,6 @@ public class PlayScreen implements Screen, InputProcessor {
 
         //player.setSpeed(y * 130f);
     }
-
-   /* public void marioMovement() {
-
-        float y = accelY;
-
-        if(y == 0) {
-            player.b2Body.applyLinearImpulse(new Vector2(0, 0), player.b2Body.getWorldCenter(), true);
-
-        }
-        if ((y >= 1) && (player.b2Body.getLinearVelocity().x <= 2)) {
-            player.b2Body.applyLinearImpulse(new Vector2(0.1f, 0f), player.b2Body.getWorldCenter(), true);
-        }
-        if ((y <= -1) && (player.b2Body.getLinearVelocity().x >= -2)) {
-            player.b2Body.applyLinearImpulse(new Vector2(-0.1f, 0f), player.b2Body.getWorldCenter(), true);
-        }
-    }*/
 
 
     public boolean gameOver(){
@@ -349,6 +315,10 @@ public class PlayScreen implements Screen, InputProcessor {
         b2dr.dispose();
         hud.dispose();
 
+    }
+
+    public HUD getHud(){
+        return hud;
     }
 
 }

@@ -38,12 +38,7 @@ public class Mario extends Sprite {
     private Animation<TextureRegion> bigMarioRun;
     private Animation<TextureRegion> growMario;
 
-    float position;
     float speed;
-    float availableWidth;
-    float availableHeight;
-
-    private long lastTime;
 
     private float stateTimer;
     private boolean runningRight;
@@ -56,14 +51,12 @@ public class Mario extends Sprite {
 
     public Mario(PlayScreen screen){
         //initialize default values
+        this.screen = screen;
         this.world = screen.getWorld();
         currentState = State.STANDING;
         previousState = State.STANDING;
         stateTimer = 0;
         runningRight = true;
-
-        lastTime = System.currentTimeMillis();
-        position = -1;
 
         Array<TextureRegion> frames = new Array<TextureRegion>();
 
@@ -111,6 +104,9 @@ public class Mario extends Sprite {
     }
 
     public void update(float dt) {
+        if (screen.getHud().isTimeUp() && !isDead()) {
+            die();
+        }
         if(marioIsBig) {
             setPosition(b2Body.getPosition().x - getWidth() / 2, b2Body.getPosition().y - getHeight() / 2 - 6 /MarioBros.PPM);
         }
@@ -128,10 +124,9 @@ public class Mario extends Sprite {
 
     public float setSpeed(float speed)
     {
-        while(true) {
             this.speed = speed;
             return speed;
-        }
+
     }
 
     public TextureRegion getFrame(float dt) {

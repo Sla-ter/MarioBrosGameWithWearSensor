@@ -7,8 +7,6 @@ import android.content.IntentFilter;
 import android.os.Bundle;
 import android.support.v4.content.LocalBroadcastManager;
 import android.util.Log;
-import android.view.MotionEvent;
-import android.view.View;
 
 import com.badlogic.gdx.backends.android.AndroidApplication;
 import com.badlogic.gdx.backends.android.AndroidApplicationConfiguration;
@@ -55,13 +53,14 @@ public class AndroidLauncher extends AndroidApplication {
         {
             String type=intent.getStringExtra("type");
             float yValue = intent.getFloatExtra("value", 0);
-            //float xValue = intent.getFloatExtra("value", 0);
+           // float xValue = intent.getFloatExtra("value", 0);
 
             Log.w("m-", "*** GOT '" + type + "'=" + yValue);
+           // Log.w("m-", "*** GOT '" + type + "'=" + xValue);
 
             //onYchanged(yValue);
             OnReceivedRemoteValue(type, yValue);
-            //OnReceivedRemoteValue(type, xValue);
+           // OnReceivedRemoteValue(type, xValue);
         }
     };
 
@@ -71,10 +70,39 @@ public class AndroidLauncher extends AndroidApplication {
                 mPlayScreen = mMarioBros.getPlayscreen();
                 return;
             }
-            mPlayScreen.setMarioSpeedY(value);
+                mPlayScreen.setMarioSpeedY(value);
+
+                //mPlayScreen.marioJump(value);
 
 
-        mPlayScreen.marioJump(false);
+
+    }
+
+    private BroadcastReceiver mMessageReceiverX = new BroadcastReceiver()
+    {
+        @Override
+        public void onReceive(Context context, Intent intent)
+        {
+            String type=intent.getStringExtra("type");
+            //float yValue = intent.getFloatExtra("value", 0);
+             float xValue = intent.getFloatExtra("value", 0);
+
+            //Log.w("m-", "*** GOT '" + type + "'=" + yValue);
+             Log.w("m-", "*** GOT '" + type + "'=" + xValue);
+
+            //onYchanged(yValue);
+            //OnReceivedRemoteValue(type, yValue);
+             OnReceivedRemoteValueX(type, xValue);
+        }
+    };
+
+    protected void OnReceivedRemoteValueX(String type, float value) {
+        //Log.i("DEBUG", "Playscreen is " + mPlayScreen);
+        if (mPlayScreen == null) {
+            mPlayScreen = mMarioBros.getPlayscreen();
+            return;
+        }
+        mPlayScreen.marioJump(value);
 
     }
 
@@ -85,6 +113,8 @@ public class AndroidLauncher extends AndroidApplication {
         super.onResume();
 
         LocalBroadcastManager.getInstance(this).registerReceiver(mMessageReceiver, new IntentFilter("sensor_data"));
+        LocalBroadcastManager.getInstance(this).registerReceiver(mMessageReceiverX, new IntentFilter("sensor_data"));
+
     }
 
     @Override
@@ -94,9 +124,12 @@ public class AndroidLauncher extends AndroidApplication {
         {
             LocalBroadcastManager.getInstance(this).unregisterReceiver(mMessageReceiver);
         }
+        if (mMessageReceiverX != null)
+        {
+            LocalBroadcastManager.getInstance(this).unregisterReceiver(mMessageReceiverX);
+        }
 
         super.onPause();
     }
-
 }
 

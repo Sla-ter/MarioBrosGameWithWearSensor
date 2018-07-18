@@ -12,6 +12,8 @@ import com.badlogic.gdx.scenes.scene2d.ui.Label;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.utils.viewport.FitViewport;
 import com.badlogic.gdx.utils.viewport.Viewport;
+import com.spiretos.mariobros.AndroidLauncher;
+import com.spiretos.mariobros.MainActivity;
 import com.spiretos.mariobros.MarioBros;
 
 /**
@@ -52,7 +54,7 @@ public class GameOverScreen implements Screen {
     @Override
     public void render(float delta) {
         if(Gdx.input.justTouched()) {
-            game.setScreen(new PlayScreen((MarioBros) game));
+            game.setScreen(new PlayScreen((MarioBros)game));
             dispose();
         }
         Gdx.gl.glClearColor(0, 0, 0, 1);

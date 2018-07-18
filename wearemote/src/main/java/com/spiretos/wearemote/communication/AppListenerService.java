@@ -24,6 +24,7 @@ public class AppListenerService extends WearableListenerService implements Googl
 {
 
     public static final String RECEIVED_Y_DATA = "RECEIVED_Y_DATA";
+    public static final String RECEIVED_X_DATA = "RECEIVED_X_DATA";
 
     private GoogleApiClient mGoogleApiClient;
     private Channel mDataChannel;
@@ -131,10 +132,15 @@ public class AppListenerService extends WearableListenerService implements Googl
                     if (c == '!')
                     {
                         final float yValue = DataUtils.getFloatFrom(s);
+                        final float xValue = DataUtils.getFloatFrom(s);
 
-                        Intent intent = new Intent(RECEIVED_Y_DATA);
-                        intent.putExtra("data_y", yValue);
-                        LocalBroadcastManager.getInstance(AppListenerService.this).sendBroadcast(intent);
+
+                        Intent intentY = new Intent(RECEIVED_Y_DATA);
+                        Intent intentX = new Intent(RECEIVED_X_DATA);
+                        intentY.putExtra("data_y", yValue);
+                        intentX.putExtra("data_x", xValue);
+                        LocalBroadcastManager.getInstance(AppListenerService.this).sendBroadcast(intentY);
+                        LocalBroadcastManager.getInstance(AppListenerService.this).sendBroadcast(intentX);
 
                         Thread.sleep(5);
                         s = "";

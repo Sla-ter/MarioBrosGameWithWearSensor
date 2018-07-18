@@ -18,7 +18,7 @@ public class MarioRemoteActivity extends SensorActivity
     //private ImageView marioStanding;
     private ImageView marioImage;
 
-    float tempY, tempValueY, lastSendValueY;
+    float tempY, tempValueY, lastSendValueY, tempX, tempValueX, lastSendValueX;
 
 
     @Override
@@ -48,12 +48,13 @@ public class MarioRemoteActivity extends SensorActivity
         if (sensor.getName().equals("accelerometer"))
         {
             tempY = event.values[1];
-            //tempX = event.values[1];
+            tempX = event.values[0];
             tempValueY = 0;
-            //tempValueX = 0;
+            tempValueX = 0;
 
             if (tempY < -6) {
                 tempValueY = -3f;
+                tempValueX = -7f;
             }
             else if (tempY < -4){
                 tempValueY = -2f;
@@ -61,23 +62,34 @@ public class MarioRemoteActivity extends SensorActivity
             else if (tempY < -2) {
                 tempValueY = -1f;
             }
-            else if (tempY > 6) {
+            else if ((tempY > 6) || (tempX >= 6)) {
                 tempValueY = 3f;
+                tempValueX = 7f;
             }
-            else if (tempY > 4){
+            else if ((tempY > 4) || (tempX >= 6)){
                 tempValueY = 2f;
+                tempValueX = 7f;
+
             }
-            else if (tempY > 2) {
+            else if ((tempY > 2) || (tempX >= 6)) {
                 tempValueY = 1f;
+                tempValueX = 7f;
+
             }
             else {
                 tempValueY = 0;
+                tempValueX = 0;
+
             }
 
             if (tempValueY != lastSendValueY) {
                 lastSendValueY = tempValueY;
                 sendSensorData("accelerometer_Y", lastSendValueY);
                 updateImage((int) lastSendValueY);
+            }
+            if (tempValueX != lastSendValueX) {
+                lastSendValueX = tempValueX;
+                sendSensorData("accelerometer_X", lastSendValueX);
             }
         }
     }
